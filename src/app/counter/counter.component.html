@@ -1,0 +1,8 @@
+<div>
+    <span>Contador: {{ counter }}</span>
+    <br>
+    <button style='width:70px; height:25px' style="background-color: aqua;"  type="button" (click)="increase()">+1</button>
+    <button style='width:70px; height:25px' style="background-color: yellow;" type="button" (click)="decrease()" [disabled]="activeDecrease">-1</button>
+    <br>
+    <button style="background-color: rgb(108, 224, 114);" type="button" (click)="inactiveDecrease()">Activar/inactivar decrease</button>
+</div>
